@@ -1,0 +1,24 @@
+﻿node.exe : (node:33112) ExperimentalWarning: CommonJS module C:\Program 
+Files\nodejs\node_modules\npm\node_modules\debug\src\node.js is loading ES Module C:\Program 
+Files\nodejs\node_modules\npm\node_modules\supports-color\index.js using require().
+At C:\Program Files\nodejs\npx.ps1:29 char:3
++   & $NODE_EXE $NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:33112) Ex...sing require().:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[31mfailed to load config from C:\Users\yashw\Desktop\ideas\HalfCookedIdeas\vite.config.ts[39m
+[31merror during build:
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@tailwindcss/vite' imported from 
+C:\Users\yashw\Desktop\ideas\HalfCookedIdeas\vite.config.ts.timestamp-1773387567083-7aa62e64a60e3.mjs
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:854:18)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:654:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:603:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:586:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:242:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:135:49)[39m
